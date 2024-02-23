@@ -3,18 +3,32 @@
     border-radius: 5px;
     width: 300px;
     margin: auto;
+    background: linear-gradient(45deg,rgba(132, 127, 173, 0.292),gray);
+    box-shadow: 0px 3px 15px rgb(240, 10, 10,0.8);
+
+
+}
+
+body{
+    background-color: rgb(141, 236, 236,0.5);
 }
 
 #display{
     margin: 10px;
     width: 90%;
     font-size: 30px;
+    text-align: right;
+    cursor: pointer;
 }
 
 .button{
     width: 60px;
     height: 60px;
     margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(237, 109, 109, 0.5);
+    cursor: pointer;
 }
 
 .button-container{
